@@ -1,5 +1,6 @@
 # Retail-KPI-Dashboard
 Tableau dashboard that allows one to quickly assess quarterly performance by sub-category and explore the relationships between sales, profit, discounting, and quantity. Interactivity features include: Filtering, Parameter Action, and a derived metric.
+<img width="2560" height="1080" alt="tab-dash" src="https://github.com/user-attachments/assets/bb41d6bc-a146-44f0-94f2-3ac1f165deb6" />
 
 
 ## Overview
