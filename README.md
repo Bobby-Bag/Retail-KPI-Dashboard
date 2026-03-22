@@ -1,35 +1,36 @@
-# Retail-KPI-Dashboard
-Tableau dashboard that allows one to quickly assess quarterly performance by sub-category and explore the relationships between sales, profit, discounting, and quantity. Interactivity features include: Filtering, Parameter Action, and a derived metric.
+
+# Superstore Sales & Profitability Dashboard
+
+## 📌 Project Overview
+This project features an interactive dashboard developed in **Tableau Desktop** to analyze the sales performance and profitability of a fictional retail chain using the Superstore sample dataset. The goal of this visualization is to provide actionable insights into regional performance, product category trends, and customer segments to drive data-informed decision-making.
+
+This dashboard was developed collaboratively as part of my Data Visualization coursework, emphasizing user-centric design and clarity in reporting.
+
+---
+
+## 📸 Dashboard Preview
 <img width="2560" height="1080" alt="tab-dash" src="https://github.com/user-attachments/assets/bb41d6bc-a146-44f0-94f2-3ac1f165deb6" />
 
+---
 
-## Overview
-**Dataset**: Superstore Sample (provided by Tableau).
+## 📊 Key Features & KPIs
+The dashboard allows stakeholders to drill down into specific metrics using dynamic parameters. Key features include:
 
-**Objective**: The objective of this dashboard was to simulate being a part of a data analysis team at a retail firm tasked with ID'ing which product subcategories merited future investment and which should be reconsidered. This dashboard would serve as a key decision-making tool for stakeholders to guide marketing and resource allocation decisions.
+*   **Executive KPIs:** High-level tracking of Total Sales, Total Profit, and Profit Margins.
+*   **Dynamic Filtering:** Interactive filters allowing users to slice data by Region, State, Category, and Date range to identify localized trends.
+  ![tab-region-filter](https://github.com/user-attachments/assets/4d9c0b53-feca-468f-b020-e51762a1ff92)
+  ![tab-time-param](https://github.com/user-attachments/assets/8cddbf59-ba0c-439e-a0bc-574c97611a46)
+*   **Trend Analysis:** Time-series charts visualizing year-over-year growth and seasonal sales spikes.
 
-**Critical Questions Answered**:
-- Is there a sub-category where high discounting appears to drive sales growth but hurts profitability?
-- Which sub-category sells high quantity but does not translate that volume into strong profit performance?
-- Which sub-category demonstrates a strong combination of revenue share, profitability, and stable growth?
-- Which sub-category appears most vulnerable based on recent performance trends?
+---
 
-## KPI's and Key Features
+## 🛠️ Tools & Technologies Used
+*   **Data Visualization:** Tableau Desktop
+*   **Data Source:** Superstore Sample Dataset (Excel/CSV)
+*   **Collaboration:** Version control and team coordination for joint dashboard development.
 
-### KPI's
-- Total Sales
-- Total Profit
-- Total Quantity
-- Order Count
-- Profit Margin
-- Average Discount
+---
 
-### Key Features
-- **Filter action**: The dashboard can be filtered by sales region via banner at the top. This will update all KPI's and graphics to metrics for the selected region.![tab-region-filter](https://github.com/user-attachments/assets/4d9c0b53-feca-468f-b020-e51762a1ff92)
-
-- **Parameter action**: *Select Time Grain* drop down controls the time grain for the adjacent line chart allowing stakeholders to observe sales trends by each product subcategory by *year, quarter,* or *month*. ![tab-time-param](https://github.com/user-attachments/assets/8cddbf59-ba0c-439e-a0bc-574c97611a46)
-
-
-## Attachments
-- Tableau workbook file
-- Analysis Report (Word doc)
+## 💡 Future Improvements
+*   Integrate Python/Pandas for advanced pre-processing and outlier detection before feeding the data into Tableau.
+*   Incorporate forecasting models to predict next quarter's sales based on historical trends.
