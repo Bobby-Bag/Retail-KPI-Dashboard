@@ -19,8 +19,8 @@ The dashboard allows stakeholders to drill down into specific metrics using dyna
 *   **Executive KPIs:** High-level tracking of Total Sales, Total Profit, and Profit Margins.
 *   **Dynamic Filtering:** Interactive filters allowing users to slice data by Region, State, Category, and Date range to identify localized trends.
   ![tab-region-filter](https://github.com/user-attachments/assets/4d9c0b53-feca-468f-b020-e51762a1ff92)
-  ![tab-time-param](https://github.com/user-attachments/assets/8cddbf59-ba0c-439e-a0bc-574c97611a46)
 *   **Trend Analysis:** Time-series charts visualizing year-over-year growth and seasonal sales spikes.
+  ![tab-time-param](https://github.com/user-attachments/assets/8cddbf59-ba0c-439e-a0bc-574c97611a46)
 
 ---
 
